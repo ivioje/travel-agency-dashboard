@@ -4,9 +4,9 @@
 import type * as T from "react-router/route-module"
 
 import type { Info as Parent0 } from "../../../+types/root.js"
-import type { Info as Parent1 } from "../admin-layout.js"
+import type { Info as Parent1 } from "./admin-layout.js"
 
-type Module = typeof import("./all-users.js")
+type Module = typeof import("../all-users.js")
 
 export type Info = {
   parents: [Parent0, Parent1],
